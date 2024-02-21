@@ -38,6 +38,12 @@ public class Module1Servlet extends HttpServlet {
         out.println("<a href=\"module2\">");
         out.println("<input type=\"submit\"value=\"Следующий модуль\"/>");
 
+        out.println("<a href=\"index.jsp\">");
+        out.println("<input type=\"submit\"value=\"&#8592\"/>");
+
+        out.println("<a href=\"module2\">");
+        out.println("<input type=\"submit\"value=\"&#8594\"/>");
+
         out.println("</body></html>");
     }
 
