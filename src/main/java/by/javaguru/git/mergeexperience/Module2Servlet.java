@@ -24,6 +24,12 @@ public class Module2Servlet extends HttpServlet {
         out.println("<html><body>");
         out.println("<h1>" + message + "</h1>");
 
+        out.println("<a href=\"module1\">");
+        out.println("<input type=\"submit\"value=\"&#8592\"/>");
+
+        out.println("<a href=\"module3\">");
+        out.println("<input type=\"submit\"value=\"&#8594\"/>");
+
         out.println("</body></html>");
     }
 
