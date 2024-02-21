@@ -23,6 +23,12 @@ public class Module4Servlet extends HttpServlet {
         PrintWriter out = response.getWriter();
         out.println("<html><body>");
         out.println("<h1>" + message + "</h1>");
+
+        out.println("<a href=\"module3\">");
+        out.println("<input type=\"submit\"value=\"Предыдущий модуль\"/>");
+
+        out.println("<a href=\"index.jsp\">");
+        out.println("<input type=\"submit\"value=\"Следующий модуль\"/>");
         out.println("</body></html>");
     }
 
