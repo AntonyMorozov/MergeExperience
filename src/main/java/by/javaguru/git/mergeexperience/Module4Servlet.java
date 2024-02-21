@@ -25,10 +25,10 @@ public class Module4Servlet extends HttpServlet {
         out.println("<h1>" + message + "</h1>");
 
         out.println("<a href=\"module3\">");
-        out.println("<input type=\"submit\"value=\"&#8592\"/>");
+        out.println("<input type=\"submit\"value=\"Предыдущий модуль\"/>");
 
         out.println("<a href=\"index.jsp\">");
-        out.println("<input type=\"submit\"value=\"&#8594\"/>");
+        out.println("<input type=\"submit\"value=\"Меню\"/>");
 
         out.println("</body></html>");
     }

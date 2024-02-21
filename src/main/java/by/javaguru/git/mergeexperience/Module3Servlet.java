@@ -37,10 +37,10 @@ public class Module3Servlet extends HttpServlet {
         out.println("</table>");
 
         out.println("<a href=\"module2\">");
-        out.println("<input type=\"submit\"value=\"&#8592\"/>");
+        out.println("<input type=\"submit\"value=\"Предыдущий модуль\"/>");
 
         out.println("<a href=\"module4\">");
-        out.println("<input type=\"submit\"value=\"&#8594\"/>");
+        out.println("<input type=\"submit\"value=\"Следующий модуль\"/>");
 
         out.println("</body></html>");
     }
